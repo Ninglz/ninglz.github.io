@@ -91,10 +91,7 @@
 
 构造方法私有化
 内部产生实例对象，并是静态static类型
-定义一个静态方法返回该实例
-
-
-实现方式-共7种1、懒汉-非同步（不建议采用）123456789public class Singleton&amp;#123;  private static Singleton singleton =">
+定义一个静态方法返回该实例">
 <meta property="og:type" content="article">
 <meta property="og:title" content="设计模式-单例与7种实现">
 <meta property="og:url" content="http://yoursite.com/设计模式-单例与7种实现.html">
@@ -104,11 +101,8 @@
 
 构造方法私有化
 内部产生实例对象，并是静态static类型
-定义一个静态方法返回该实例
-
-
-实现方式-共7种1、懒汉-非同步（不建议采用）123456789public class Singleton&amp;#123;  private static Singleton singleton =">
-<meta property="og:updated_time" content="2016-12-02T14:34:55.604Z">
+定义一个静态方法返回该实例">
+<meta property="og:updated_time" content="2016-12-02T14:40:34.582Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="设计模式-单例与7种实现">
 <meta name="twitter:description" content="单例什么是单例？无论程序如何运行，采用单例模式的类（Singleton类）只会产生一个实例对象。
@@ -116,10 +110,7 @@
 
 构造方法私有化
 内部产生实例对象，并是静态static类型
-定义一个静态方法返回该实例
-
-
-实现方式-共7种1、懒汉-非同步（不建议采用）123456789public class Singleton&amp;#123;  private static Singleton singleton =">
+定义一个静态方法返回该实例">
 
 
 
@@ -429,10 +420,11 @@
 <ul>
 <li>构造方法私有化</li>
 <li>内部产生实例对象，并是静态static类型</li>
-<li>定义一个静态方法返回该实例</li>
+<li>定义一个静态方法返回该实例<a id="more"></a>
+<h2 id="实现方式-共7种"><a href="#实现方式-共7种" class="headerlink" title="实现方式-共7种"></a>实现方式-共7种</h2></li>
 </ul>
 </blockquote>
-<h2 id="实现方式-共7种"><a href="#实现方式-共7种" class="headerlink" title="实现方式-共7种"></a>实现方式-共7种</h2><h4 id="1、懒汉-非同步（不建议采用）"><a href="#1、懒汉-非同步（不建议采用）" class="headerlink" title="1、懒汉-非同步（不建议采用）"></a>1、懒汉-非同步（不建议采用）</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</div><div class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton singleton = <span class="keyword">null</span>;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(singleton == <span class="keyword">null</span>)</div><div class="line">      singleton = <span class="keyword">new</span> Singleton();</div><div class="line">    <span class="keyword">return</span> singleton;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="1、懒汉-非同步（不建议采用）"><a href="#1、懒汉-非同步（不建议采用）" class="headerlink" title="1、懒汉-非同步（不建议采用）"></a>1、懒汉-非同步（不建议采用）</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</div><div class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton singleton = <span class="keyword">null</span>;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(singleton == <span class="keyword">null</span>)</div><div class="line">      singleton = <span class="keyword">new</span> Singleton();</div><div class="line">    <span class="keyword">return</span> singleton;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>此方法的懒汉模式采用懒加载，在多线程中不能保障只创建一个实例，并且有未知问题属于线程不安全的实现。</p>
 <h4 id="2、-懒汉-同步（不建议采用）"><a href="#2、-懒汉-同步（不建议采用）" class="headerlink" title="2、 懒汉-同步（不建议采用）"></a><span id="jump">2、 懒汉-同步（不建议采用）</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Singleton</span></span>&#123;</div><div class="line">  <span class="keyword">private</span> <span class="keyword">static</span> Singleton singleton = <span class="keyword">null</span>;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="title">Singleton</span><span class="params">()</span></span>&#123;&#125;;</div><div class="line">  <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> Singleton <span class="title">getInstance</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="keyword">if</span>(singleton == <span class="keyword">null</span>)</div><div class="line">      singleton = <span class="keyword">new</span> Singleton();</div><div class="line">    <span class="keyword">return</span> singleton;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>较上一个方法只是增加了<code>synchronized</code>关键字，却保证了线程安全。但是他执行的效率非常低，大部分情况下不需要同步。</p>
