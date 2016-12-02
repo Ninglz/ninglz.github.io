@@ -3,30 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[testtage]]></title>
-      <url>%2Ftesttage.html</url>
-      <content type="text"></content>
+      <title><![CDATA[git的安装]]></title>
+      <url>%2Fgit%E7%9A%84%E5%AE%89%E8%A3%85.html</url>
+      <content type="text"><![CDATA[还没写。。。]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[testc]]></title>
-      <url>%2Ftestc.html</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[新文章]]></title>
-      <url>%2F%E6%96%B0%E6%96%87%E7%AB%A0.html</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>%2Fhello-world.html</url>
-      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <title><![CDATA[博客成立啦]]></title>
+      <url>%2F%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E5%95%A6.html</url>
+      <content type="text"><![CDATA[工作4年，其实一直想直接搞一个属于自己的博客。 万恶的自己拖延症太严重，几次博客搭建到一半又放弃了。所以就这样一直拖到了现在。昨天浏览别人的博客查资料，发现他的博客很帅气，研究了一下，发现了搭建的框架，今天呢就3分热度的也搭建了起来，万幸的是在这三分热度的时间把博客搭建好了。 关于博客Hexo与github搭建，后续我会写一篇文章，教大家如何搭建自己的博客]]></content>
     </entry>
 
     

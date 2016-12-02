@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Xlbaren</title>
+  <title>Xlbaren-下里巴人</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-01T16:25:21.259Z</updated>
+  <updated>2016-12-02T09:17:53.877Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,76 +16,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>testtage</title>
-    <link href="http://yoursite.com/testtage.html"/>
-    <id>http://yoursite.com/testtage.html</id>
-    <published>2016-12-01T16:18:27.000Z</published>
-    <updated>2016-12-01T16:25:21.259Z</updated>
+    <title>git的安装</title>
+    <link href="http://yoursite.com/git%E7%9A%84%E5%AE%89%E8%A3%85.html"/>
+    <id>http://yoursite.com/git的安装.html</id>
+    <published>2016-12-02T07:50:01.000Z</published>
+    <updated>2016-12-02T09:17:53.877Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="C" scheme="http://yoursite.com/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>testc</title>
-    <link href="http://yoursite.com/testc.html"/>
-    <id>http://yoursite.com/testc.html</id>
-    <published>2016-12-01T16:18:21.000Z</published>
-    <updated>2016-12-01T16:27:30.684Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Testing" scheme="http://yoursite.com/categories/Testing/"/>
-    
-    
-      <category term="JAVA" scheme="http://yoursite.com/tags/JAVA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新文章</title>
-    <link href="http://yoursite.com/%E6%96%B0%E6%96%87%E7%AB%A0.html"/>
-    <id>http://yoursite.com/新文章.html</id>
-    <published>2016-12-01T07:40:24.000Z</published>
-    <updated>2016-12-01T07:40:24.410Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world.html"/>
-    <id>http://yoursite.com/hello-world.html</id>
-    <published>2016-12-01T07:12:53.798Z</published>
-    <updated>2016-12-01T07:12:53.802Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<p>还没写。。。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;还没写。。。&lt;/p&gt;
+
     
     </summary>
+    
+      <category term="版本控制" scheme="http://yoursite.com/categories/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客成立啦</title>
+    <link href="http://yoursite.com/%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E5%95%A6.html"/>
+    <id>http://yoursite.com/博客成立啦.html</id>
+    <published>2016-12-02T07:47:01.000Z</published>
+    <updated>2016-12-02T09:17:07.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>工作4年，其实一直想直接搞一个属于自己的博客。<br><a id="more"></a></p>
+<p>万恶的自己拖延症太严重，几次博客搭建到一半又放弃了。所以就这样一直拖到了现在。<br>昨天浏览别人的博客查资料，发现他的博客很帅气，研究了一下，发现了搭建的框架，今天呢就3分热度的也搭建了起来，万幸的是在这三分热度的时间把博客搭建好了。</p>
+<h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>Hexo与github搭建，后续我会写一篇文章，教大家如何搭建自己的博客</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;工作4年，其实一直想直接搞一个属于自己的博客。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="随记" scheme="http://yoursite.com/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
   </entry>
