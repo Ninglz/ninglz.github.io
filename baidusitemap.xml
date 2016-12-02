@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/02/testc/</loc>
+    <lastmod>2016-12-01T16:27:30.684Z</lastmod>
+    <data>
+        <display>
+        <title>testc</title>
+        <pubTime>2016-12-01T16:18:21.000Z</pubTime>
+        
+        <tag>JAVA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Testing" url="http://yoursite.com/categories/Testing/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/02/testtage/</loc>
+    <lastmod>2016-12-01T16:25:21.259Z</lastmod>
+    <data>
+        <display>
+        <title>testtage</title>
+        <pubTime>2016-12-01T16:18:27.000Z</pubTime>
+        
+        <tag>C</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/01/%E6%96%B0%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2016-12-01T07:40:24.410Z</lastmod>
+    <data>
+        <display>
+        <title>新文章</title>
+        <pubTime>2016-12-01T07:40:24.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/12/01/hello-world/</loc>
+    <lastmod>2016-12-01T07:12:53.802Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-12-01T07:12:53.798Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
