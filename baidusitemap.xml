@@ -4,26 +4,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E5%95%A6.html</loc>
-    <lastmod>2016-12-02T14:40:42.469Z</lastmod>
-    <data>
-        <display>
-        <title>博客成立啦</title>
-        <pubTime>2016-12-02T07:47:01.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="随记" url="http://yoursite.com/categories/%E9%9A%8F%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E4%B8%8E7%E7%A7%8D%E5%AE%9E%E7%8E%B0.html</loc>
-    <lastmod>2016-12-02T14:40:34.582Z</lastmod>
+    <lastmod>2016-12-02T14:55:34.301Z</lastmod>
     <data>
         <display>
         <title>设计模式-单例与7种实现</title>
@@ -35,6 +17,24 @@
            
              
               <breadCrumb title="设计模式" url="http://yoursite.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E5%95%A6.html</loc>
+    <lastmod>2016-12-02T14:40:42.469Z</lastmod>
+    <data>
+        <display>
+        <title>博客成立啦</title>
+        <pubTime>2016-12-02T07:47:01.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随记" url="http://yoursite.com/categories/%E9%9A%8F%E8%AE%B0/"/>
           
         </display>
     </data>
